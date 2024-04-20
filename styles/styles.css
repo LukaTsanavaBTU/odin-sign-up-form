@@ -6,7 +6,7 @@
 :root {
     --bckgrnd-primary: #f9fafb;
     --bckgrnd-secondary: #ffffff;
-    --btn-clr: #596d48;
+    --btn-clr: #c47d99;
     --sys-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --main-font-clr: #3a2a36;
     font-family: var(--sys-font);
@@ -135,9 +135,9 @@ button {
 }
 
 button:hover{
-    background-color: #677c55;
+    background-color: #cc88a3;
 }
 
 button:active {
-    background-color: #4f633e;
+    background-color: #c47d99;
 }
