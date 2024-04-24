@@ -110,6 +110,7 @@ form {
                 &:focus {
                     outline: 2px solid var(--btn-clr);
                 }
+                &:invalid, 
                 &.invalid {
                     border: 1.8px solid rgba(211, 28, 28, 0.8);
                 }
