@@ -20,37 +20,37 @@
                 this in your life to help you realize your deepest dreams. Sign up not to get started</p>
             <p>You know you want to.</p>
         </div>
-        <form action="">
+        <form action="post" id="sign-up">
             <h2>Let's do this!</h2>
             <ul>
                 <li>
-                    <label for="">FIRST NAME</label>
-                    <input type="text">
+                    <label for="first">FIRST NAME</label>
+                    <input type="text" id="first" name="first" required>
                 </li>
                 <li>
-                    <label for="">LAST NAME</label>
-                    <input type="text">
+                    <label for="last">LAST NAME</label>
+                    <input type="text" id="last" name="last" required>
                 </li>
                 <li>
-                    <label for="">EMAIL</label>
-                    <input type="text">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
                 </li>
                 <li>
-                    <label for="">PHONE NUMBER</label>
-                    <input type="text">
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" id="tel" name="tel" required>
                 </li>
                 <li>
-                    <label for="">PASSWORD</label>
-                    <input type="text">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
                 </li>
                 <li>
-                    <label for="">CONFIRM</label>
-                    <input type="text">
+                    <label for="re-password">CONFIRM</label>
+                    <input type="password" id="re-password" name="re-password" required>
                 </li>
             </ul>
         </form>
         <div class="form-button">
-            <button>Create Account</button>
+            <button form="sign-up">Create Account</button>
             <p>Already have an account? <a href="">Log In</a></p>
         </div>
     </main>
