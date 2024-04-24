@@ -1,0 +1,1 @@
+A Sign-Up form for an imaginary service. Made using HTML, CSS and a bit of JS. Made for the odin project.
