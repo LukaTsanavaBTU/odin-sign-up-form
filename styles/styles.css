@@ -131,6 +131,7 @@ span.invalid::after {
     position: absolute;
     color: rgb(211, 28, 28);
     font-size: 0.8rem;
+    font-weight: 600;
 
     
 }
